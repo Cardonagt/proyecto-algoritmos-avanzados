@@ -1,0 +1,24 @@
+A,B,4
+A,C,2
+B,C,1
+B,D,5
+C,D,8
+C,E,10
+D,E,2
+D,F,6
+E,F,3
+```
+
+**Guardar:** `Ctrl + S`
+
+### Paso 3.3: Crear Archivo de Texto
+
+**Clic derecho en carpeta `data`** → `New File` → Nombrar: `texto.txt`
+
+**Copiar:**
+```
+Este es un texto de prueba para el algoritmo de Huffman.
+La compresion de datos es fundamental en ciencias de la computacion.
+Huffman proporciona una codificacion optima basada en frecuencias.
+Este algoritmo es muy utilizado en la compresion de archivos.
+Los codigos mas cortos se asignan a los caracteres mas frecuentes.

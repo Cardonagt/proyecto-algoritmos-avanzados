@@ -319,7 +319,7 @@ def ejecutar_huffman(archivo_txt: str = "data/texto.txt"):
     codigos = generar_codigos(raiz)
     
     # Mostrar tabla de códigos
-    print(f"\n📊 Tabla de Códigos de Huffman:")
+    print(f"\n Tabla de Códigos de Huffman:")
     print(f"{'Carácter':<12} {'Frecuencia':<12} {'Código'}")
     print("-" * 45)
     for char, freq in sorted(frecuencias.items(), key=lambda x: x[1], reverse=True):
@@ -336,7 +336,7 @@ def ejecutar_huffman(archivo_txt: str = "data/texto.txt"):
     bits_comprimido = sum(len(codigos[char]) * freq for char, freq in frecuencias.items())
     tasa_compresion = (1 - bits_comprimido / bits_original) * 100
     
-    print(f"\n📦 Estadísticas de Compresión:")
+    print(f"\n Estadísticas de Compresión:")
     print(f"   Bits originales: {bits_original}")
     print(f"   Bits comprimidos: {bits_comprimido}")
     print(f"   Tasa de compresión: {tasa_compresion:.2f}%")

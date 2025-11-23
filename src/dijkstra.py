@@ -137,7 +137,7 @@ def ejecutar_dijkstra(archivo_csv: str = "data/grafo.csv", nodo_origen: str = No
     
     # Si no se especifica nodo origen, pedir al usuario
     if nodo_origen is None:
-        print(f"\n📍 Nodos disponibles: {sorted(nodos)}")
+        print(f"\n Nodos disponibles: {sorted(nodos)}")
         nodo_origen = input("Ingrese el nodo origen: ").strip()
     
     # Ejecutar Dijkstra
@@ -147,7 +147,7 @@ def ejecutar_dijkstra(archivo_csv: str = "data/grafo.csv", nodo_origen: str = No
         return
     
     # Mostrar resultados
-    print(f"\n📊 Distancias mínimas desde '{nodo_origen}':")
+    print(f"\n Distancias mínimas desde '{nodo_origen}':")
     for nodo in sorted(distancias.keys()):
         dist = distancias[nodo]
         if dist == float('inf'):
@@ -155,7 +155,7 @@ def ejecutar_dijkstra(archivo_csv: str = "data/grafo.csv", nodo_origen: str = No
         else:
             print(f"   {nodo_origen} → {nodo}: {dist}")
     
-    print(f"\n🛤️  Rutas completas:")
+    print(f"\n  Rutas completas:")
     aristas_rutas = []
     for nodo_destino in sorted(nodos):
         if nodo_destino == nodo_origen:

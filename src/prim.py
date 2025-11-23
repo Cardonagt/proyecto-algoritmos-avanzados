@@ -97,10 +97,10 @@ def ejecutar_prim(archivo_csv: str = "data/grafo.csv"):
     mst_aristas, peso_total = prim(aristas)
     
     # Mostrar resultados
-    print(f"\n📊 Resultados del MST (Prim):")
+    print(f"\n Resultados del MST (Prim):")
     print(f"   Aristas en el MST: {len(mst_aristas)}")
     print(f"   Peso total: {peso_total}")
-    print(f"\n🌳 Aristas seleccionadas:")
+    print(f"\n Aristas seleccionadas:")
     for nodo1, nodo2, peso in mst_aristas:
         print(f"   {nodo1} -- {nodo2} : {peso}")
     

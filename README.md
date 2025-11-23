@@ -1,2 +1,5 @@
-# proyecto-algoritmos-avanzados
-Proyecto Final - Análisis de Algoritmos - Prim, Kruskal, Dijkstra, Huffman
+# Proyecto Final - Análisis de Algoritmos
+
+**Autor:** William Cardona  
+**Carnet:** 202304221  
+**Universidad:** Universidad Da Vinci de Guatemala

@@ -148,10 +148,10 @@ def ejecutar_kruskal(archivo_csv: str = "data/grafo.csv"):
     mst_aristas, peso_total = kruskal(aristas)
     
     # Mostrar resultados
-    print(f"\n📊 Resultados del MST (Kruskal):")
+    print(f"\n Resultados del MST (Kruskal):")
     print(f"   Aristas en el MST: {len(mst_aristas)}")
     print(f"   Peso total: {peso_total}")
-    print(f"\n🌳 Aristas seleccionadas (en orden):")
+    print(f"\n Aristas seleccionadas (en orden):")
     for nodo1, nodo2, peso in mst_aristas:
         print(f"   {nodo1} -- {nodo2} : {peso}")
     
